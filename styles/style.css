@@ -1,0 +1,715 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 3000px; */
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+}
+body.dark{
+  background-color: #333;
+  color: white;
+}
+
+.dark .head{
+  background-color: #333;
+  color: #228302;
+}
+
+.dark header{
+  background-color: #333;
+  color: #228302;
+  box-shadow: 0 0 10px #228302;
+}
+
+
+header{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  background: white;
+  box-shadow: 0.5px 0.5px 10px rgb(160, 157, 157);
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  padding: 10px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.theme{
+  margin-left: 50px;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+  padding: 10px;
+}
+
+.menu ul a li{
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: tahoma; 
+  cursor: pointer;
+}
+.menu ul a{
+  text-decoration: none;
+  color: #228302;
+}
+.menu ul li{
+  margin-left: 10px;
+}
+
+.menu ul a:hover{
+  color: #34A203;
+}
+
+
+.dark #search{
+  background-color: #333;
+  color: white;
+  border: 1px solid #228302;
+  box-shadow: 0 0 5px #34A203;
+}
+
+#genre-filter{
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  color: #228302;
+  font-size: 16px;
+  border: 1px solid #228302;
+  box-shadow: 0 0 5px #34A203;
+}
+
+.dark #genre-filter{
+  background-color: #333;
+  color: #228302;
+  font-size: 16px;
+  border: 1px solid #228302;
+  box-shadow: 0 0 5px #34A203;
+}
+
+.active{
+  color: #FFB400;
+  text-decoration: underline;
+}
+
+.head{
+  margin-top: 60px;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shared{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-buttons{
+  position: relative;
+  left: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+}
+
+.text-buttons h1{
+  position: absolute;
+  width: 500px;
+  font-size: 60px;
+  word-spacing: 10px;
+  color: #228302;
+}
+
+.btn{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+}
+
+.button{
+  padding: 15px;
+  /* width: 105px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-right: 30px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.first-btn{
+  background-color: #34A203;
+  color: white;
+}
+
+.second-btn{
+  border: 1px solid #34A203;
+  color: #34A203;
+}
+
+.notebook img{
+  object-fit: cover;
+  width: 1000px;
+  height: 600px;
+}
+
+/*****СТИЛ_ФНИМАЦИЯ_ЗАДНЕГО_ФОНА_****
+background-size: cover;             |
+background-repeat: no-repeat;       |
+background-position: center;        |
+background-attachment: fixed;       |
+------------------------------------|
+***********************************/
+
+.book-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.heart-icon.liked {
+  color: red;
+}
+
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.books {
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.dark .books{
+  background-color: #333;
+  
+}
+
+.books-header {
+  width: 100%;
+  max-width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.books-header h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: #228302;
+}
+.dark .books-header h2{
+  color: #228302;
+}
+
+.all-books-link {
+  font-size: 1.3rem;
+  color: #34A203;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.all-books-link:hover {
+  color: #228302;
+}
+
+.books-container {
+  max-width: 85%;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 35px;
+}
+.dark .books-container{
+  background-color: #333;
+  color: white;
+}
+.cont{
+  width: 100%;
+}
+
+.heart-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: yellowgreen;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart-icon {
+  color: white;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.heart-icon.liked {
+  color: red;
+}
+
+.book-card {
+  position: relative;
+  width: 265px;
+  padding: 2%;
+  border: 1px solid wheat;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: white;
+  transition: transform 0.5s;
+}
+.dark .book-card{
+  background-color: #333;
+  color: white;
+  box-shadow: 0 0 10px #228302;
+}
+
+.book-card:hover {
+  transform: scale(1.02);
+}
+
+.book-card img {
+  width: 100%;
+  max-width: 60%;
+  border-radius: 5px;
+  margin-top: 7%;
+  box-shadow: 0 0 10px black;
+}
+
+.book-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.book-card p {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.book-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.buy-btn {
+  padding: 5px 10px;
+  background: #34A203;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background: #228302;
+}
+
+.rating {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFB400;
+  cursor: pointer;
+}
+
+hr{
+  box-shadow: 0 0 10px #228302;
+}
+
+/* **********************************************************
+Аудиокниги стил
+********************************************************** */
+
+
+
+.audio-book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 260px;
+  position: relative;
+}
+.dark .audio-book-card{
+  background-color: #333;
+  color: white;
+  border: 1px solid wheat;
+  box-shadow: 0 0 10px #228302;
+}
+
+.book-cover img {
+  width: 100%;
+
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.audio-book-content h3 {
+  font-size: 1.5rem;
+  margin: 10px 0 5px;
+}
+
+.audio-book-content p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.audio-controls audio {
+  width: 80%;
+  
+}
+
+
+
+.audio-controls .progress-bar {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.dark .control-buttons button{
+  background-color: #333;
+  color: white;
+}
+
+.control-buttons button{
+  border: none;
+  background-color: white;
+  font-size: 1.5rem;
+}
+
+.control-buttons .play-button {
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.book-cover img{
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 7%;
+  box-shadow: 0 0 10px black;
+}
+
+
+.reviews {
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dark .reviews{
+  background-color: #333;
+  color: white;
+}
+
+.otziv{
+  width: 75%;
+  display: flex;
+  justify-content: start;
+}
+.dark .otziv{
+  color: #228302;
+}
+
+.reviews-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: left;
+}
+.dark .reviews-title{
+  color: #228302;
+}
+
+.reviews-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 80%;
+}
+
+.slide-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.slide-btn:hover {
+  background-color: #45a049;
+}
+
+/* Карточка отзыва */
+.review-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e7f9ed;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+}
+.dark .review-card{
+  background-color: #333;
+  color: #fff;
+}
+
+.review-content {
+  text-align: left;
+  max-width: 80%;
+}
+
+.review-content blockquote {
+  font-size: 1.1em;
+  color: #555;
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+}
+
+.review-author {
+  font-weight: bold;
+  font-size: 1em;
+  color: #333;
+}
+.dark .review-author{
+  color: white;
+}
+
+.review-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+
+.add-review-container {
+  text-align: center;
+}
+
+.add-review-btn {
+  background-color: #4caf50; 
+  color: white; 
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-review-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.add-review-btn:active {
+  transform: scale(1);
+}
+
+
+/* ***************************************************************** */
+
+
+.about-us {
+  /* width: 75%; */
+  background-color: #f5f5f5; 
+  padding: 50px 20px;
+  /* text-align: center;  */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-div{
+  width: 75%;
+  display: flex;
+  justify-content: start;
+}
+
+.about-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-content {
+  max-width: 800px; 
+  margin: 0 auto 30px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.about-content p {
+  margin-bottom: 15px;
+  
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ********************************************************** */
+
+
+
+.footer-images {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer-images img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  object-fit: cover; 
+}
+
+
+
+
+/* ---------------------------------------
+  слайдеры
+----------------------------------------- */
+
+.swiper{
+  width: 70%;
+  height: 500px;
+  padding: 20px 50px;
+  box-shadow: 0 0 10px gray;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+.reviews-swiper{
+  width: 70%;
+  height: 230px;
+}
+
+.swiper-wrapper{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+
+
+.swiper-slide{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.swiper-slide img{
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+  .text-buttons h1 {
+    font-size: 40px;
+  }
+}
+
+
+.button {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}

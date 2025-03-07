@@ -1,0 +1,511 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "bookFoto": "../books_img/foto03.jpg",
+      "bookName": "Богатый папа бедный папа",
+      "bookAuthor": "Роберт Кийосаки",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "2",
+      "bookFoto": "../books_img/foto02.jpg",
+      "bookName": "Подсознание может всё!",
+      "bookAuthor": "Джон Кехо",
+      "genre": "Психология"
+    },
+    {
+      "id": "3",
+      "bookFoto": "../books_img/foto5.jpg",
+      "bookName": "Думай медленно... Решай быстро",
+      "bookAuthor": "Даниель Канеман",
+      "genre": "Психология"
+    }
+  ],
+  "allBooks": [
+    {
+      "id": "1",
+      "bookFoto": "../books_img/foto03.jpg",
+      "bookName": "Богатый папа бедный папа",
+      "bookAuthor": "Роберт Кийосаки",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "2",
+      "bookFoto": "../books_img/foto02.jpg",
+      "bookName": "Подсознание может всё!",
+      "bookAuthor": "Джон Кехо",
+      "genre": "Психология"
+    },
+    {
+      "id": "3",
+      "bookFoto": "../books_img/foto5.jpg",
+      "bookName": "Думай медленно... Решай быстро",
+      "bookAuthor": "Даниель Канеман",
+      "genre": "Психология"
+    },
+    {
+      "id": "4",
+      "bookFoto": "../books_img/cover.webp",
+      "bookName": "Выйди из зоны комфорта",
+      "bookAuthor": "Брайан Трейси",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "5",
+      "bookFoto": "../books_img/cover-1.jfif",
+      "bookName": "Безусловная любовь к себе",
+      "bookAuthor": "Шаинна Али",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "6",
+      "bookFoto": "../books_img/60951.jpg",
+      "bookName": "Встречи со смертью",
+      "bookAuthor": "Р.М.Рильке",
+      "genre": "Психология"
+    },
+    {
+      "id": "7",
+      "bookFoto": "../books_img/foto01.jpg",
+      "bookName": "Атомные привычки",
+      "bookAuthor": "Джеймс Клир",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "8",
+      "bookFoto": "../books_img/foto3.jpg",
+      "bookName": "Думай и богатей",
+      "bookAuthor": "Наполеон Хилл",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "9",
+      "bookFoto": "../books_img/foto22.jpg",
+      "bookName": "Сила воли",
+      "bookAuthor": "Келли Макгонигал",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "10",
+      "bookFoto": "../books_img/foto1.png",
+      "bookName": "7 навыков высокоэффективных людей",
+      "bookAuthor": "Стивен Р. Кови",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "11",
+      "bookFoto": "../books_img/foto4.png",
+      "bookName": "100 способов изменить жизнь",
+      "bookAuthor": "Лариса Парфентьева",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "12",
+      "bookFoto": "../books_img/foto28.jpg",
+      "bookName": "Магия утра",
+      "bookAuthor": "Хэл Элрод",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "13",
+      "bookFoto": "../books_img/foto26.jpg",
+      "bookName": "Самый богатый человек в Вавилоне",
+      "bookAuthor": "Джордж Клейсон",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "14",
+      "bookFoto": "../books_img/foto7.jpeg",
+      "bookName": "Духовные законы богатства",
+      "bookAuthor": "Саидмурод Давлатов",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "15",
+      "bookFoto": "../books_img/foto35.webp",
+      "bookName": "Найти себя",
+      "bookAuthor": "Леонид Кроль",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "16",
+      "bookFoto": "../books_img/foto12.jpg",
+      "bookName": "Когда жизнь сбивает с ног",
+      "bookAuthor": "Расс Херрис",
+      "genre": "Мотивация"
+    },
+    {
+      "id": "17",
+      "bookFoto": "../books_img/foto38.jpg",
+      "bookName": "Всё! Доводи до конца",
+      "bookAuthor": "Джен Ягер",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "18",
+      "bookFoto": "../books_img/foto39.png",
+      "bookName": "Цели и ключевые результаты",
+      "bookAuthor": "Пол Нивен",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "19",
+      "bookFoto": "../books_img/foto16.jpeg",
+      "bookName": "Одна привычка в неделю",
+      "bookAuthor": "Бретт Блюменталь",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "20",
+      "bookFoto": "../books_img/foto42.jpg",
+      "bookName": "Ремонт крыш и крыльев",
+      "bookAuthor": "Светлана Патрушева",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "21",
+      "bookFoto": "../books_img/foto43.png",
+      "bookName": "50 ключей для легкой жизни",
+      "bookAuthor": "Карин Кущик",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "22",
+      "bookFoto": "../books_img/foto44.png",
+      "bookName": "Ответы внутри тебя",
+      "bookAuthor": "Эмбер Рэй",
+      "genre": "Психология"
+    },
+    {
+      "id": "23",
+      "bookFoto": "../books_img/foto46.jpg",
+      "bookName": "Услышать себя",
+      "bookAuthor": "Пуджа Лакшмин",
+      "genre": "Психология"
+    },
+    {
+      "id": "24",
+      "bookFoto": "../books_img/foto25.png",
+      "bookName": "Самая сильная Женщина в комнате",
+      "bookAuthor": "Лидия Фенет",
+      "genre": "Мотивация"
+    },
+    {
+      "id": "25",
+      "bookFoto": "../books_img/foto30.png",
+      "bookName": "Лидер без предрассудков",
+      "bookAuthor": "Памела Фуллер",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "26",
+      "bookFoto": "../books_img/foto2.jpg",
+      "bookName": "Как читать людей",
+      "bookAuthor": "Жозеф Мессинжер",
+      "genre": "Психология"
+    },
+    {
+      "id": "27",
+      "bookFoto": "../books_img/foto23.png",
+      "bookName": "Синдром белки в колесе",
+      "bookAuthor": "Либби Уивер",
+      "genre": "Психология"
+    },
+    {
+      "id": "28",
+      "bookFoto": "../books_img/foto31.png",
+      "bookName": "Я знаю о чем ты молчишь",
+      "bookAuthor": "Торстен Гавенер",
+      "genre": "Психология"
+    },
+    {
+      "id": "29",
+      "bookFoto": "../books_img/foto8.jpg",
+      "bookName": "Сегодня! или никогда",
+      "bookAuthor": "Ли Кратчли",
+      "genre": "Мотивация"
+    },
+    {
+      "id": "30",
+      "bookFoto": "../books_img/foto10.jpg",
+      "bookName": "Сказать жизни да!",
+      "bookAuthor": "Виктор Франкл",
+      "genre": "Мотивация"
+    },
+    {
+      "id": "31",
+      "bookFoto": "../books_img/foto15.jpg",
+      "bookName": "Психология мотивации",
+      "bookAuthor": "Тори Хистинс",
+      "genre": "Психология"
+    },
+    {
+      "id": "32",
+      "bookFoto": "../books_img/foto32.jpg",
+      "bookName": "Читайте людей как книгу",
+      "bookAuthor": "Патрик Кинг",
+      "genre": "Психология"
+    },
+    {
+      "id": "33",
+      "bookFoto": "../books_img/foto21.jpg",
+      "bookName": "Путь к финансовой свободе",
+      "bookAuthor": "Бодо Шефер",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "34",
+      "bookFoto": "../books_img/foto27.png",
+      "bookName": "Выбор",
+      "bookAuthor": "Эдит Ева Эгер",
+      "genre": "Мотивация"
+    },
+    {
+      "id": "35",
+      "bookFoto": "../books_img/foto33.jpg",
+      "bookName": "Психология влияния",
+      "bookAuthor": "Роберт Чалдини",
+      "genre": "Психология"
+    },
+    {
+      "id": "36",
+      "bookFoto": "../books_img/foto29.png",
+      "bookName": "Стратегия мышления богатых и бедных",
+      "bookAuthor": "Саидмурод Давлатов",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "37",
+      "bookFoto": "../books_img/foto34.png",
+      "bookName": "Эффективное мышление",
+      "bookAuthor": "Эстанислао Бахрах",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "38",
+      "bookFoto": "../books_img/foto6.jpg",
+      "bookName": "Мастер времени",
+      "bookAuthor": "Брайан Трейси",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "39",
+      "bookFoto": "../books_img/foto9.jpg",
+      "bookName": "Я и деньги",
+      "bookAuthor": "Саидмурод Давлатов",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "40",
+      "bookFoto": "../books_img/foto36.jpg",
+      "bookName": "Найти баланс",
+      "bookAuthor": "Кит Бейли",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "41",
+      "bookFoto": "../books_img/foto16.jpg",
+      "bookName": "Как стать миллионером на СНГ",
+      "bookAuthor": "Саидмурод Давлатов",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "42",
+      "bookFoto": "../books_img/foto17.jpeg",
+      "bookName": "Наука денег",
+      "bookAuthor": "Брайан Трейси",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "43",
+      "bookFoto": "../books_img/foto37.png",
+      "bookName": "Начни свой бизнес",
+      "bookAuthor": "Юридическая Фирма",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "44",
+      "bookFoto": "../books_img/foto41.jpg",
+      "bookName": "Бизнес с нуля",
+      "bookAuthor": "Lean Startup",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "45",
+      "bookFoto": "../books_img/foto14.jpg",
+      "bookName": "Маркетинг от а до я",
+      "bookAuthor": "Филип Котлер",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "46",
+      "bookFoto": "../books_img/foto40.jpg",
+      "bookName": "От идеи до IT бизнеса",
+      "bookAuthor": "Павел Столбов",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "47",
+      "bookFoto": "../books_img/foto13.jpg",
+      "bookName": "Как продать что угодно кому угодно",
+      "bookAuthor": "Джо Джирард",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "48",
+      "bookFoto": "../books_img/foto18.jpg",
+      "bookName": "Деньги в сетевом маркетинге",
+      "bookAuthor": "Саидмурод Давлатов",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "49",
+      "bookFoto": "../books_img/foto19.png",
+      "bookName": "Взлом маркетинга",
+      "bookAuthor": "Фил Барден",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "50",
+      "bookFoto": "../books_img/foto20.jpg",
+      "bookName": "Интернет- Маркетинг",
+      "bookAuthor": "Андрей Гавриков",
+      "genre": "Бизнес"
+    }
+  ],
+  "audioBooks": [
+    {
+      "id": "51",
+      "bookFoto": "../audioBook_img/Богатый папа.jpg",
+      "bookName": "Богатый папа бедный папа",
+      "bookAuthor": "Роберт Кийосаки",
+      "audio": "../audio_mp3/Богатый папа_ бедный папа. Роберт Кийосаки. [Аудиокнига](MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "52",
+      "bookFoto": "../audioBook_img/главный закон.jpg",
+      "bookName": "Как преуспеть без усилий",
+      "bookAuthor": "Ричард Кох",
+      "audio": "../audio_mp3/Закон 80_20. Как преуспеть без усилий. Принцип Парето. Аудиокнига целиком(MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "53",
+      "bookFoto": "../audioBook_img/лучшая версия.jpg",
+      "bookName": "Психология привычки",
+      "bookAuthor": "Хэролд Литл",
+      "audio": "/audio_mp3/Психология привычки. Хэролд Литл. [Аудиокнига](MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Психология"
+    }
+  ],
+  "allAudioBooks": [
+    {
+      "id": "51",
+      "bookFoto": "../audioBook_img/Богатый папа.jpg",
+      "bookName": "Богатый папа бедный папа",
+      "bookAuthor": "Роберт Кийосаки",
+      "audio": "../audio_mp3/Богатый папа_ бедный папа. Роберт Кийосаки. [Аудиокнига](MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "54",
+      "bookFoto": "../audioBook_img/Все тайны.jpg",
+      "bookName": "Все тайны человеческого мозга и как его обмануть Ваш мозг и его развитие",
+      "bookAuthor": "Александр Попов",
+      "audio": "../audio_mp3/Все тайны человеческого мозга и как его обмануть_ Ваш мозг и его развитие. Аудиокнига целиком(MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Психология"
+    },
+    {
+      "id": "55",
+      "bookFoto": "../audioBook_img/главный закон.jpg",
+      "bookName": "Как преуспеть без усилий. Принцип Парето",
+      "bookAuthor": "Ричард Кох",
+      "audio": "../audio_mp3/Закон 80_20. Как преуспеть без усилий. Принцип Парето. Аудиокнига целиком(MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Бизнес"
+    },
+    {
+      "id": "56",
+      "bookFoto": "../audioBook_img/Как выйти из зоны комфорта.jpg",
+      "bookName": "Как выйти из зоны комфорта Личная эффективность - руководство для начинающих",
+      "bookAuthor": "Майкл Андерсон",
+      "audio": "../audio_mp3/Как выйти из зоны комфорта_ Личная эффективность - руководство для начинающих_ Аудиокнига целиком(MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Саморазвитие"
+    },
+    {
+      "id": "57",
+      "bookFoto": "../audioBook_img/Как завоевывать друзей.jpg",
+      "bookName": "Как завоевывать друзей и оказывать влияние на людей.",
+      "bookAuthor": "Дайл Каренги",
+      "audio": "../audio_mp3/Как завоевывать друзей и оказывать влияние на людей. Дейл Карнеги. Аудиокнига(MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Психология"
+    },
+    {
+      "id": "58",
+      "bookFoto": "../audioBook_img/Как эффективно общаться.jpg",
+      "bookName": "Как эффективно общаться с людьми",
+      "bookAuthor": "Дайл Каренги",
+      "audio": "../audio_mp3/Как эффективно общаться с людьми. Дейл Карнеги. [Аудиокнига](MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Психология"
+    },
+    {
+      "id": "59",
+      "bookFoto": "../audioBook_img/Отношения вашей мечты.jpg",
+      "bookName": "Отношения вашей мечты. Главные секреты идеального брака",
+      "bookAuthor": "Фрея Эостре",
+      "audio": "../audio_mp3/Отношения вашей мечты. Главные секреты идеального брака_ Аудиокнига целиком(MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Психология"
+    },
+    {
+      "id": "60",
+      "bookFoto": "../audioBook_img/лучшая версия.jpg",
+      "bookName": "Психология привычки",
+      "bookAuthor": "Хэролд Литл",
+      "audio": "../audio_mp3/Психология привычки. Хэролд Литл. [Аудиокнига](MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Психология"
+    },
+    {
+      "id": "61",
+      "bookFoto": "../audioBook_img/Пять языков любви.jpg",
+      "bookName": "Пять языков любви. Гэри Чепмен.",
+      "bookAuthor": "Виктория Шилкина",
+      "audio": "../audio_mp3/Пять языков любви. Гэри Чепмен. Аудиокнига(MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Психология"
+    },
+    {
+      "id": "62",
+      "bookFoto": "../audioBook_img/Сила воли.jpg",
+      "bookName": "Сила воли. Руководство по управлению собой. Лучшая мотивация для жизни. Келли Виннер.",
+      "bookAuthor": "Дэвид Малкольм",
+      "audio": "../audio_mp3/Сила воли. Руководство по управлению собой. Лучшая мотивация для жизни. Келли Виннер. [Аудиокнига](MP3_160K).mp3",
+      "prevButton": "../images/prev.jpg",
+      "nextButton": "../images/next.jpg",
+      "genre": "Саморазвитие"
+    }
+  ]
+}
